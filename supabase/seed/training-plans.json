@@ -1,0 +1,2360 @@
+{
+  "plans": [
+    {
+      "id": "galloway-5km-v1",
+      "plan_type": "galloway",
+      "name": "Finir un 5 km de zéro – Méthode Galloway",
+      "description": "Plan de 12 semaines utilisant la méthode Galloway (intervalles marche/course) pour permettre à tout débutant de finir un 5 km. Toutes les séances se font en Zone 1–2.",
+      "total_weeks": 12,
+      "sessions_per_week": 3,
+      "target_distance": 5000,
+      "weeks": [
+        {
+          "week_number": 1,
+          "cycle_number": null,
+          "cycle_name": null,
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "10 × (30 sec course / 1 min marche)",
+              "duration_minutes": 15,
+              "description": "10 répétitions de 30 sec de course suivies de 1 min de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 2,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 10,
+                "run_seconds": 30,
+                "walk_seconds": 60
+              }
+            },
+            {
+              "session_number": 2,
+              "session_type": "E1",
+              "title": "10 × (30 sec course / 1 min marche)",
+              "duration_minutes": 15,
+              "description": "10 répétitions de 30 sec de course suivies de 1 min de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 2,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 10,
+                "run_seconds": 30,
+                "walk_seconds": 60
+              }
+            },
+            {
+              "session_number": 3,
+              "session_type": "E1",
+              "title": "12 × (30 sec course / 1 min marche)",
+              "duration_minutes": 18,
+              "description": "12 répétitions de 30 sec de course suivies de 1 min de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 2,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 12,
+                "run_seconds": 30,
+                "walk_seconds": 60
+              }
+            }
+          ]
+        },
+        {
+          "week_number": 2,
+          "cycle_number": null,
+          "cycle_name": null,
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "10 × (45 sec course / 1 min marche)",
+              "duration_minutes": 18,
+              "description": "10 répétitions de 45 sec de course suivies de 1 min de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 2,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 10,
+                "run_seconds": 45,
+                "walk_seconds": 60
+              }
+            },
+            {
+              "session_number": 2,
+              "session_type": "E1",
+              "title": "10 × (45 sec course / 1 min marche)",
+              "duration_minutes": 18,
+              "description": "10 répétitions de 45 sec de course suivies de 1 min de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 2,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 10,
+                "run_seconds": 45,
+                "walk_seconds": 60
+              }
+            },
+            {
+              "session_number": 3,
+              "session_type": "E1",
+              "title": "12 × (45 sec course / 1 min marche)",
+              "duration_minutes": 21,
+              "description": "12 répétitions de 45 sec de course suivies de 1 min de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 2,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 12,
+                "run_seconds": 45,
+                "walk_seconds": 60
+              }
+            }
+          ]
+        },
+        {
+          "week_number": 3,
+          "cycle_number": null,
+          "cycle_name": null,
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "10 × (1 min course / 1 min marche)",
+              "duration_minutes": 20,
+              "description": "10 répétitions de 1 min de course suivies de 1 min de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 2,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 10,
+                "run_seconds": 60,
+                "walk_seconds": 60
+              }
+            },
+            {
+              "session_number": 2,
+              "session_type": "E1",
+              "title": "10 × (1 min course / 1 min marche)",
+              "duration_minutes": 20,
+              "description": "10 répétitions de 1 min de course suivies de 1 min de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 2,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 10,
+                "run_seconds": 60,
+                "walk_seconds": 60
+              }
+            },
+            {
+              "session_number": 3,
+              "session_type": "E1",
+              "title": "12 × (1 min course / 1 min marche)",
+              "duration_minutes": 24,
+              "description": "12 répétitions de 1 min de course suivies de 1 min de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 2,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 12,
+                "run_seconds": 60,
+                "walk_seconds": 60
+              }
+            }
+          ]
+        },
+        {
+          "week_number": 4,
+          "cycle_number": null,
+          "cycle_name": null,
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "10 × (1'30\" course / 1'30\" marche)",
+              "duration_minutes": 30,
+              "description": "10 répétitions de 1'30\" de course suivies de 1'30\" de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 2,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 10,
+                "run_seconds": 90,
+                "walk_seconds": 90
+              }
+            },
+            {
+              "session_number": 2,
+              "session_type": "E1",
+              "title": "10 × (1'30\" course / 1'30\" marche)",
+              "duration_minutes": 30,
+              "description": "10 répétitions de 1'30\" de course suivies de 1'30\" de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 2,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 10,
+                "run_seconds": 90,
+                "walk_seconds": 90
+              }
+            },
+            {
+              "session_number": 3,
+              "session_type": "E1",
+              "title": "8 × (2 min course / 2 min marche)",
+              "duration_minutes": 32,
+              "description": "8 répétitions de 2 min de course suivies de 2 min de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 2,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 8,
+                "run_seconds": 120,
+                "walk_seconds": 120
+              }
+            }
+          ]
+        },
+        {
+          "week_number": 5,
+          "cycle_number": null,
+          "cycle_name": null,
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "8 × (2 min course / 1 min marche)",
+              "duration_minutes": 24,
+              "description": "8 répétitions de 2 min de course suivies de 1 min de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 2,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 8,
+                "run_seconds": 120,
+                "walk_seconds": 60
+              }
+            },
+            {
+              "session_number": 2,
+              "session_type": "E1",
+              "title": "10 × (2 min course / 1 min marche)",
+              "duration_minutes": 30,
+              "description": "10 répétitions de 2 min de course suivies de 1 min de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 2,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 10,
+                "run_seconds": 120,
+                "walk_seconds": 60
+              }
+            },
+            {
+              "session_number": 3,
+              "session_type": "E1",
+              "title": "7 × (3 min course / 2 min marche)",
+              "duration_minutes": 35,
+              "description": "7 répétitions de 3 min de course suivies de 2 min de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 2,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 7,
+                "run_seconds": 180,
+                "walk_seconds": 120
+              }
+            }
+          ]
+        },
+        {
+          "week_number": 6,
+          "cycle_number": null,
+          "cycle_name": null,
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "8 × (3 min course / 2 min marche)",
+              "duration_minutes": 40,
+              "description": "8 répétitions de 3 min de course suivies de 2 min de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 2,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 8,
+                "run_seconds": 180,
+                "walk_seconds": 120
+              }
+            },
+            {
+              "session_number": 2,
+              "session_type": "E1",
+              "title": "8 × (3 min course / 1 min marche)",
+              "duration_minutes": 32,
+              "description": "8 répétitions de 3 min de course suivies de 1 min de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 2,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 8,
+                "run_seconds": 180,
+                "walk_seconds": 60
+              }
+            },
+            {
+              "session_number": 3,
+              "session_type": "E1",
+              "title": "5 × (5 min course / 2 min marche)",
+              "duration_minutes": 35,
+              "description": "5 répétitions de 5 min de course suivies de 2 min de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 1,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 5,
+                "run_seconds": 300,
+                "walk_seconds": 120
+              }
+            }
+          ]
+        },
+        {
+          "week_number": 7,
+          "cycle_number": null,
+          "cycle_name": null,
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "5 × (5 min course / 2 min marche)",
+              "duration_minutes": 35,
+              "description": "5 répétitions de 5 min de course suivies de 2 min de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 1,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 5,
+                "run_seconds": 300,
+                "walk_seconds": 120
+              }
+            },
+            {
+              "session_number": 2,
+              "session_type": "E1",
+              "title": "5 × (5 min course / 1 min marche)",
+              "duration_minutes": 30,
+              "description": "5 répétitions de 5 min de course suivies de 1 min de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 1,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 5,
+                "run_seconds": 300,
+                "walk_seconds": 60
+              }
+            },
+            {
+              "session_number": 3,
+              "session_type": "E1",
+              "title": "4 × (7 min course / 2 min marche)",
+              "duration_minutes": 36,
+              "description": "4 répétitions de 7 min de course suivies de 2 min de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 1,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 4,
+                "run_seconds": 420,
+                "walk_seconds": 120
+              }
+            }
+          ]
+        },
+        {
+          "week_number": 8,
+          "cycle_number": null,
+          "cycle_name": null,
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "4 × (7 min course / 2 min marche)",
+              "duration_minutes": 36,
+              "description": "4 répétitions de 7 min de course suivies de 2 min de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 1,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 4,
+                "run_seconds": 420,
+                "walk_seconds": 120
+              }
+            },
+            {
+              "session_number": 2,
+              "session_type": "E1",
+              "title": "4 × (8 min course / 2 min marche)",
+              "duration_minutes": 40,
+              "description": "4 répétitions de 8 min de course suivies de 2 min de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 1,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 4,
+                "run_seconds": 480,
+                "walk_seconds": 120
+              }
+            },
+            {
+              "session_number": 3,
+              "session_type": "E1",
+              "title": "4 × (8 min course / 2 min marche)",
+              "duration_minutes": 40,
+              "description": "4 répétitions de 8 min de course suivies de 2 min de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 1,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 4,
+                "run_seconds": 480,
+                "walk_seconds": 120
+              }
+            }
+          ]
+        },
+        {
+          "week_number": 9,
+          "cycle_number": null,
+          "cycle_name": null,
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "3 × (10 min course / 3 min marche)",
+              "duration_minutes": 39,
+              "description": "3 répétitions de 10 min de course suivies de 3 min de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 1,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 3,
+                "run_seconds": 600,
+                "walk_seconds": 180
+              }
+            },
+            {
+              "session_number": 2,
+              "session_type": "E1",
+              "title": "3 × (10 min course / 3 min marche)",
+              "duration_minutes": 39,
+              "description": "3 répétitions de 10 min de course suivies de 3 min de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 1,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 3,
+                "run_seconds": 600,
+                "walk_seconds": 180
+              }
+            },
+            {
+              "session_number": 3,
+              "session_type": "E1",
+              "title": "3 × (10 min course / 2 min marche)",
+              "duration_minutes": 36,
+              "description": "3 répétitions de 10 min de course suivies de 2 min de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 1,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 3,
+                "run_seconds": 600,
+                "walk_seconds": 120
+              }
+            }
+          ]
+        },
+        {
+          "week_number": 10,
+          "cycle_number": null,
+          "cycle_name": null,
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "2 × (15 min course / 5 min marche)",
+              "duration_minutes": 40,
+              "description": "2 répétitions de 15 min de course suivies de 5 min de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 1,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 2,
+                "run_seconds": 900,
+                "walk_seconds": 300
+              }
+            },
+            {
+              "session_number": 2,
+              "session_type": "E1",
+              "title": "2 × (15 min course / 5 min marche)",
+              "duration_minutes": 40,
+              "description": "2 répétitions de 15 min de course suivies de 5 min de marche. Allure très légère en Zone 1–2.",
+              "intensity_level": 1,
+              "pile_count": 1,
+              "walk_run_pattern": {
+                "kind": "repeats",
+                "sets": 2,
+                "run_seconds": 900,
+                "walk_seconds": 300
+              }
+            },
+            {
+              "session_number": 3,
+              "session_type": "E1",
+              "title": "20 min course continue",
+              "duration_minutes": 20,
+              "description": "Course continue de 20 min en Zone 1–2. Maintenez une allure conversationnelle.",
+              "intensity_level": 2,
+              "pile_count": 1,
+              "walk_run_pattern": {
+                "kind": "sequence",
+                "segments": [
+                  {
+                    "type": "run",
+                    "duration_seconds": 1200
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "week_number": 11,
+          "cycle_number": null,
+          "cycle_name": null,
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "20 min course / 5 min marche + 5 min course",
+              "duration_minutes": 30,
+              "description": "Courez 20 minutes en Zone 1–2, marchez 5 minutes pour récupérer, puis terminez par 5 minutes de course continue. Un beau progrès !",
+              "intensity_level": 2,
+              "pile_count": 3,
+              "walk_run_pattern": {
+                "kind": "sequence",
+                "segments": [
+                  {
+                    "type": "run",
+                    "duration_seconds": 1200
+                  },
+                  {
+                    "type": "walk",
+                    "duration_seconds": 300
+                  },
+                  {
+                    "type": "run",
+                    "duration_seconds": 300
+                  }
+                ]
+              }
+            },
+            {
+              "session_number": 2,
+              "session_type": "E1",
+              "title": "20 min course / 5 min marche + 5 min course",
+              "duration_minutes": 30,
+              "description": "Courez 20 minutes en Zone 1–2, marchez 5 minutes pour récupérer, puis terminez par 5 minutes de course continue.",
+              "intensity_level": 2,
+              "pile_count": 3,
+              "walk_run_pattern": {
+                "kind": "sequence",
+                "segments": [
+                  {
+                    "type": "run",
+                    "duration_seconds": 1200
+                  },
+                  {
+                    "type": "walk",
+                    "duration_seconds": 300
+                  },
+                  {
+                    "type": "run",
+                    "duration_seconds": 300
+                  }
+                ]
+              }
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "25 min course continue",
+              "duration_minutes": 25,
+              "description": "25 minutes de course continue en Zone 1–2. Votre plus longue sortie continue à ce jour !",
+              "intensity_level": 2,
+              "pile_count": 1,
+              "walk_run_pattern": {
+                "kind": "sequence",
+                "segments": [
+                  {
+                    "type": "run",
+                    "duration_seconds": 1500
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "week_number": 12,
+          "cycle_number": null,
+          "cycle_name": null,
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "20 min course / 5 min marche + 10 min course",
+              "duration_minutes": 35,
+              "description": "Courez 20 minutes, marchez 5 minutes, puis terminez fort avec 10 minutes de course. Préparez-vous pour le 5 km !",
+              "intensity_level": 2,
+              "pile_count": 3,
+              "walk_run_pattern": {
+                "kind": "sequence",
+                "segments": [
+                  {
+                    "type": "run",
+                    "duration_seconds": 1200
+                  },
+                  {
+                    "type": "walk",
+                    "duration_seconds": 300
+                  },
+                  {
+                    "type": "run",
+                    "duration_seconds": 600
+                  }
+                ]
+              }
+            },
+            {
+              "session_number": 2,
+              "session_type": "E1",
+              "title": "20 min course / 5 min marche + 10 min course",
+              "duration_minutes": 35,
+              "description": "Dernière séance d'entraînement avant la course. Courez 20 minutes, marchez 5 minutes, puis 10 minutes de course. Restez détendu.",
+              "intensity_level": 2,
+              "pile_count": 3,
+              "walk_run_pattern": {
+                "kind": "sequence",
+                "segments": [
+                  {
+                    "type": "run",
+                    "duration_seconds": 1200
+                  },
+                  {
+                    "type": "walk",
+                    "duration_seconds": 300
+                  },
+                  {
+                    "type": "run",
+                    "duration_seconds": 600
+                  }
+                ]
+              }
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "5 km – Race Day ! 🎉",
+              "duration_minutes": null,
+              "description": "C'est le grand jour ! Courez votre premier 5 km. Démarrez doucement en Zone 1–2. Utilisez la marche si nécessaire, il n'y a aucune honte. Profitez de chaque foulée !",
+              "intensity_level": 3,
+              "pile_count": 1,
+              "walk_run_pattern": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consolidation-5km-v1",
+      "plan_type": "5km",
+      "name": "Consolidation 5 km",
+      "description": "Plan de consolidation 5 km en 12 semaines (3 cycles de 4 semaines). Stabilise le volume, améliore la vitesse et prépare une course 5 km.",
+      "total_weeks": 12,
+      "sessions_per_week": 3,
+      "target_distance": 5000,
+      "weeks": [
+        {
+          "week_number": 1,
+          "cycle_number": 1,
+          "cycle_name": "Cycle 1 – Vitesse",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "20' EF – Footing facile",
+              "duration_minutes": 20,
+              "description": "20 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "10' EF + 6×30'' rapide / 1' récup + 10' EF",
+              "duration_minutes": 29,
+              "description": "10 min d'échauffement en EF, puis 6 répétitions de 30 secondes rapides avec 1 minute de récupération active, 10 min de retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "25' EF – Sortie longue",
+              "duration_minutes": 25,
+              "description": "25 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 2,
+          "cycle_number": 1,
+          "cycle_name": "Cycle 1 – Vitesse",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "20' EF – Footing facile",
+              "duration_minutes": 20,
+              "description": "20 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "10' EF + 6×1' rapide / 1' récup + 10' EF",
+              "duration_minutes": 32,
+              "description": "10 min d'échauffement en EF, puis 6 répétitions d'1 minute rapide avec 1 minute de récupération active, 10 min de retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "25' EF – Sortie longue",
+              "duration_minutes": 25,
+              "description": "25 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 3,
+          "cycle_number": 1,
+          "cycle_name": "Cycle 1 – Vitesse",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "25' EF – Footing facile",
+              "duration_minutes": 25,
+              "description": "25 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "10' EF + 6×1'30'' rapide / 1'30'' récup + 10' EF",
+              "duration_minutes": 38,
+              "description": "10 min d'échauffement en EF, puis 6 répétitions de 1'30'' rapides avec 1'30'' de récupération active, 10 min de retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "30' EF – Sortie longue",
+              "duration_minutes": 30,
+              "description": "30 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 4,
+          "cycle_number": 1,
+          "cycle_name": "Cycle 1 – Vitesse",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "20' EF – Footing facile",
+              "duration_minutes": 20,
+              "description": "20 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "10' EF + 6×30'' rapide / 1' récup + 10' EF",
+              "duration_minutes": 29,
+              "description": "Semaine de récupération active. 10 min d'échauffement, 6×30'' rapides avec 1' récupération, 10 min retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "25' EF – Sortie longue",
+              "duration_minutes": 25,
+              "description": "25 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 5,
+          "cycle_number": 2,
+          "cycle_name": "Cycle 2 – Résistance",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "25' EF – Footing facile",
+              "duration_minutes": 25,
+              "description": "25 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "10' EF + 5×2' allure 5 km / 2' récup + 10' EF",
+              "duration_minutes": 40,
+              "description": "10 min d'échauffement, puis 5 répétitions de 2 minutes à allure 5 km (Séance I Jack Daniels) avec 2 minutes de récupération active, 10 min de retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "25' EF – Sortie longue",
+              "duration_minutes": 25,
+              "description": "25 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 6,
+          "cycle_number": 2,
+          "cycle_name": "Cycle 2 – Résistance",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "25' EF – Footing facile",
+              "duration_minutes": 25,
+              "description": "25 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "10' EF + 4×3' allure 5 km / 2' récup + 10' EF",
+              "duration_minutes": 40,
+              "description": "10 min d'échauffement, puis 4 répétitions de 3 minutes à allure 5 km (Séance I Jack Daniels) avec 2 minutes de récupération active, 10 min de retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "30' EF – Sortie longue",
+              "duration_minutes": 30,
+              "description": "30 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 7,
+          "cycle_number": 2,
+          "cycle_name": "Cycle 2 – Résistance",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "25' EF – Footing facile",
+              "duration_minutes": 25,
+              "description": "25 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "10' EF + 5×4' allure 5 km / 2' récup + 10' EF",
+              "duration_minutes": 50,
+              "description": "10 min d'échauffement, puis 5 répétitions de 4 minutes à allure 5 km (Séance I Jack Daniels) avec 2 minutes de récupération active, 10 min de retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "35' EF – Sortie longue",
+              "duration_minutes": 35,
+              "description": "35 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 8,
+          "cycle_number": 2,
+          "cycle_name": "Cycle 2 – Résistance",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "20' EF – Footing facile",
+              "duration_minutes": 20,
+              "description": "20 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "10' EF + 5×2' allure 5 km / 2' récup + 10' EF",
+              "duration_minutes": 40,
+              "description": "Semaine de récupération active. 10 min d'échauffement, 5×2' à allure 5 km avec 2' récupération, 10 min retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "25' EF – Sortie longue",
+              "duration_minutes": 25,
+              "description": "25 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 9,
+          "cycle_number": 3,
+          "cycle_name": "Cycle 3 – Spécifique 5 km",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "25' EF – Footing facile",
+              "duration_minutes": 25,
+              "description": "25 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "3×5' allure 5 km / 2' récup",
+              "duration_minutes": 21,
+              "description": "3 répétitions de 5 minutes à allure cible 5 km avec 2 minutes de récupération active. Concentrez-vous sur la régularité de l'allure.",
+              "intensity_level": 3,
+              "pile_count": 2
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "30' EF – Sortie longue",
+              "duration_minutes": 30,
+              "description": "30 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 10,
+          "cycle_number": 3,
+          "cycle_name": "Cycle 3 – Spécifique 5 km",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "30' EF – Footing facile",
+              "duration_minutes": 30,
+              "description": "30 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "3×6' allure 5 km / 2' récup",
+              "duration_minutes": 24,
+              "description": "3 répétitions de 6 minutes à allure cible 5 km avec 2 minutes de récupération active. Maintenez l'effort sur chaque répétition.",
+              "intensity_level": 3,
+              "pile_count": 2
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "35' EF – Sortie longue",
+              "duration_minutes": 35,
+              "description": "35 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 11,
+          "cycle_number": 3,
+          "cycle_name": "Cycle 3 – Spécifique 5 km",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "30' EF – Footing facile",
+              "duration_minutes": 30,
+              "description": "30 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "3×7' allure 5 km / 2' récup",
+              "duration_minutes": 27,
+              "description": "3 répétitions de 7 minutes à allure cible 5 km avec 2 minutes de récupération active. La séance la plus exigeante du cycle.",
+              "intensity_level": 3,
+              "pile_count": 2
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "40' EF – Sortie longue",
+              "duration_minutes": 40,
+              "description": "40 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 12,
+          "cycle_number": 3,
+          "cycle_name": "Cycle 3 – Spécifique 5 km",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "25' EF – Footing facile",
+              "duration_minutes": 25,
+              "description": "25 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "25' EF (décharge)",
+              "duration_minutes": 25,
+              "description": "Semaine de décharge avant la course. Footing facile de 25 min en Zone 1. Restez détendu et conservez vos jambes.",
+              "intensity_level": 3,
+              "pile_count": 1
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "5 km – Race Day ! 🎉",
+              "duration_minutes": null,
+              "description": "Course objectif 5 km ! Appliquez l'allure travaillée pendant le cycle spécifique. Démarrez prudemment dans la première moitié et accélérez progressivement.",
+              "intensity_level": 3,
+              "pile_count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consolidation-10km-v1",
+      "plan_type": "10km",
+      "name": "Consolidation 10 km",
+      "description": "Plan de consolidation 10 km en 12 semaines (3 cycles de 4 semaines). Améliore la VMA et l'endurance pour performer sur 10 km.",
+      "total_weeks": 12,
+      "sessions_per_week": 3,
+      "target_distance": 10000,
+      "weeks": [
+        {
+          "week_number": 1,
+          "cycle_number": 1,
+          "cycle_name": "Cycle 1 – Vitesse",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "30' EF – Footing facile",
+              "duration_minutes": 30,
+              "description": "30 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 8×40'' rapide / 1' récup + 10' EF",
+              "duration_minutes": 43,
+              "description": "20 min d'échauffement, 8 répétitions de 40 secondes rapides avec 1 minute de récupération active, 10 min de retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "40' EF – Sortie longue",
+              "duration_minutes": 40,
+              "description": "40 minutes de sortie longue en endurance fondamentale (Zone 1–2). Maintenez une allure confortable et régulière.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 2,
+          "cycle_number": 1,
+          "cycle_name": "Cycle 1 – Vitesse",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "30' EF – Footing facile",
+              "duration_minutes": 30,
+              "description": "30 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 8×1' rapide / 1' récup + 10' EF",
+              "duration_minutes": 46,
+              "description": "20 min d'échauffement, 8 répétitions d'1 minute rapide avec 1 minute de récupération active, 10 min de retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "45' EF – Sortie longue",
+              "duration_minutes": 45,
+              "description": "45 minutes de sortie longue en endurance fondamentale (Zone 1–2). Maintenez une allure confortable et régulière.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 3,
+          "cycle_number": 1,
+          "cycle_name": "Cycle 1 – Vitesse",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "30' EF – Footing facile",
+              "duration_minutes": 30,
+              "description": "30 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 8×1'30'' rapide / 1'30'' récup + 10' EF",
+              "duration_minutes": 54,
+              "description": "20 min d'échauffement, 8 répétitions de 1'30'' rapides avec 1'30'' de récupération active, 10 min de retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "50' EF – Sortie longue",
+              "duration_minutes": 50,
+              "description": "50 minutes de sortie longue en endurance fondamentale (Zone 1–2). Maintenez une allure confortable et régulière.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 4,
+          "cycle_number": 1,
+          "cycle_name": "Cycle 1 – Vitesse",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "30' EF – Footing facile",
+              "duration_minutes": 30,
+              "description": "30 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 8×40'' rapide / 1' récup + 10' EF",
+              "duration_minutes": 43,
+              "description": "Semaine de récupération active. 20 min d'échauffement, 8×40'' rapides avec 1' récupération, 10 min retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "40' EF – Sortie longue",
+              "duration_minutes": 40,
+              "description": "40 minutes de sortie longue en endurance fondamentale (Zone 1–2). Maintenez une allure confortable et régulière.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 5,
+          "cycle_number": 2,
+          "cycle_name": "Cycle 2 – Résistance",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "35' EF – Footing facile",
+              "duration_minutes": 35,
+              "description": "35 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 6×2' allure 10 km / 2' récup + 10' EF",
+              "duration_minutes": 54,
+              "description": "20 min d'échauffement, 6 répétitions de 2 minutes à allure 10 km avec 2 minutes de récupération active, 10 min de retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "50' EF – Sortie longue",
+              "duration_minutes": 50,
+              "description": "50 minutes de sortie longue en endurance fondamentale (Zone 1–2). Maintenez une allure confortable et régulière.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 6,
+          "cycle_number": 2,
+          "cycle_name": "Cycle 2 – Résistance",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "40' EF – Footing facile",
+              "duration_minutes": 40,
+              "description": "40 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 6×3' allure I Jack Daniels / 2' récup + 10' EF",
+              "duration_minutes": 60,
+              "description": "20 min d'échauffement, 6 répétitions de 3 minutes à allure Intervalle (Jack Daniels) avec 2 minutes de récupération active, 10 min de retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "55' EF – Sortie longue",
+              "duration_minutes": 55,
+              "description": "55 minutes de sortie longue en endurance fondamentale (Zone 1–2). Maintenez une allure confortable et régulière.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 7,
+          "cycle_number": 2,
+          "cycle_name": "Cycle 2 – Résistance",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "40' EF – Footing facile",
+              "duration_minutes": 40,
+              "description": "40 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 5×4' allure I Jack Daniels / 2' récup + 10' EF",
+              "duration_minutes": 60,
+              "description": "20 min d'échauffement, 5 répétitions de 4 minutes à allure Intervalle (Jack Daniels) avec 2 minutes de récupération active, 10 min de retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "60' EF – Sortie longue",
+              "duration_minutes": 60,
+              "description": "60 minutes de sortie longue en endurance fondamentale (Zone 1–2). Maintenez une allure confortable et régulière.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 8,
+          "cycle_number": 2,
+          "cycle_name": "Cycle 2 – Résistance",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "35' EF – Footing facile",
+              "duration_minutes": 35,
+              "description": "35 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 5×2' allure I Jack Daniels / 2' récup + 10' EF",
+              "duration_minutes": 50,
+              "description": "Semaine de récupération active. 20 min d'échauffement, 5×2' à allure I Jack Daniels avec 2' récupération, 10 min retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "45' EF – Sortie longue",
+              "duration_minutes": 45,
+              "description": "45 minutes de sortie longue en endurance fondamentale (Zone 1–2). Maintenez une allure confortable et régulière.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 9,
+          "cycle_number": 3,
+          "cycle_name": "Cycle 3 – Spécifique 10 km",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "45' EF – Footing facile",
+              "duration_minutes": 45,
+              "description": "45 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 6×3' allure 10 km / 2' récup",
+              "duration_minutes": 50,
+              "description": "20 min d'échauffement, 6 répétitions de 3 minutes à allure cible 10 km avec 2 minutes de récupération active.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "60' EF – Sortie longue",
+              "duration_minutes": 60,
+              "description": "60 minutes de sortie longue en endurance fondamentale (Zone 1–2). Maintenez une allure confortable et régulière.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 10,
+          "cycle_number": 3,
+          "cycle_name": "Cycle 3 – Spécifique 10 km",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "45' EF – Footing facile",
+              "duration_minutes": 45,
+              "description": "45 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 5×5' allure 10 km / 2' récup",
+              "duration_minutes": 55,
+              "description": "20 min d'échauffement, 5 répétitions de 5 minutes à allure cible 10 km avec 2 minutes de récupération active.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "70' EF – Sortie longue",
+              "duration_minutes": 70,
+              "description": "70 minutes de sortie longue en endurance fondamentale (Zone 1–2). Maintenez une allure confortable et régulière.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 11,
+          "cycle_number": 3,
+          "cycle_name": "Cycle 3 – Spécifique 10 km",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "45' EF – Footing facile",
+              "duration_minutes": 45,
+              "description": "45 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 3×8' allure 10 km / 2' récup",
+              "duration_minutes": 50,
+              "description": "20 min d'échauffement, 3 répétitions de 8 minutes à allure cible 10 km avec 2 minutes de récupération active.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "70' EF – Sortie longue",
+              "duration_minutes": 70,
+              "description": "70 minutes de sortie longue en endurance fondamentale (Zone 1–2). Maintenez une allure confortable et régulière.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 12,
+          "cycle_number": 3,
+          "cycle_name": "Cycle 3 – Spécifique 10 km",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "45' EF – Footing facile",
+              "duration_minutes": 45,
+              "description": "45 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "45' EF (décharge)",
+              "duration_minutes": 45,
+              "description": "Semaine de décharge avant la course. Footing facile de 45 min en Zone 1. Préservez vos jambes.",
+              "intensity_level": 3,
+              "pile_count": 1
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "10 km – Race Day ! 🎉",
+              "duration_minutes": null,
+              "description": "Course objectif 10 km ! Appliquez l'allure spécifique travaillée pendant le cycle. Partez prudemment et accélérez dans la seconde moitié.",
+              "intensity_level": 3,
+              "pile_count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consolidation-15km-v1",
+      "plan_type": "15km",
+      "name": "Consolidation 15 km",
+      "description": "Plan de consolidation 15 km en 12 semaines (3 cycles de 4 semaines). Développe l'endurance spécifique pour performer sur 15 km avec une sortie longue jusqu'à 1h30.",
+      "total_weeks": 12,
+      "sessions_per_week": 3,
+      "target_distance": 15000,
+      "weeks": [
+        {
+          "week_number": 1,
+          "cycle_number": 1,
+          "cycle_name": "Cycle 1 – Vitesse",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "40' EF – Footing facile",
+              "duration_minutes": 40,
+              "description": "40 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 10×1' rapide / 1' récup + 10' EF",
+              "duration_minutes": 50,
+              "description": "20 min d'échauffement, 10 répétitions d'1 minute rapide avec 1 minute de récupération active, 10 min de retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "50' EF – Sortie longue",
+              "duration_minutes": 50,
+              "description": "50 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 2,
+          "cycle_number": 1,
+          "cycle_name": "Cycle 1 – Vitesse",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "40' EF – Footing facile",
+              "duration_minutes": 40,
+              "description": "40 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 8×1'30'' rapide / 1'30'' récup + 10' EF",
+              "duration_minutes": 54,
+              "description": "20 min d'échauffement, 8 répétitions de 1'30'' rapides avec 1'30'' de récupération active, 10 min de retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "55' EF – Sortie longue",
+              "duration_minutes": 55,
+              "description": "55 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 3,
+          "cycle_number": 1,
+          "cycle_name": "Cycle 1 – Vitesse",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "40' EF – Footing facile",
+              "duration_minutes": 40,
+              "description": "40 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 6×2' rapide / 1'30'' récup + 10' EF",
+              "duration_minutes": 51,
+              "description": "20 min d'échauffement, 6 répétitions de 2 minutes rapides avec 1'30'' de récupération active, 10 min de retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "60' EF – Sortie longue",
+              "duration_minutes": 60,
+              "description": "60 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 4,
+          "cycle_number": 1,
+          "cycle_name": "Cycle 1 – Vitesse",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "40' EF – Footing facile",
+              "duration_minutes": 40,
+              "description": "40 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 8×1' rapide / 1' récup + 10' EF",
+              "duration_minutes": 46,
+              "description": "Semaine de récupération active. 20 min d'échauffement, 8×1' rapides avec 1' récupération, 10 min retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "45' EF – Sortie longue",
+              "duration_minutes": 45,
+              "description": "45 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 5,
+          "cycle_number": 2,
+          "cycle_name": "Cycle 2 – Résistance",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "45' EF – Footing facile",
+              "duration_minutes": 45,
+              "description": "45 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 5×3' allure 15 km / 2' récup + 10' EF",
+              "duration_minutes": 55,
+              "description": "20 min d'échauffement, 5 répétitions de 3 minutes à allure 15 km avec 2 minutes de récupération active, 10 min de retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "60' EF – Sortie longue",
+              "duration_minutes": 60,
+              "description": "60 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 6,
+          "cycle_number": 2,
+          "cycle_name": "Cycle 2 – Résistance",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "45' EF – Footing facile",
+              "duration_minutes": 45,
+              "description": "45 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 5×4' allure I Jack Daniels / 2' récup + 10' EF",
+              "duration_minutes": 60,
+              "description": "20 min d'échauffement, 5 répétitions de 4 minutes à allure Intervalle (Jack Daniels) avec 2 minutes de récupération active, 10 min de retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "65' EF – Sortie longue",
+              "duration_minutes": 65,
+              "description": "65 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 7,
+          "cycle_number": 2,
+          "cycle_name": "Cycle 2 – Résistance",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "50' EF – Footing facile",
+              "duration_minutes": 50,
+              "description": "50 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 4×5' allure I Jack Daniels / 2' récup + 10' EF",
+              "duration_minutes": 58,
+              "description": "20 min d'échauffement, 4 répétitions de 5 minutes à allure Intervalle (Jack Daniels) avec 2 minutes de récupération active, 10 min de retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "75' EF – Sortie longue",
+              "duration_minutes": 75,
+              "description": "75 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 8,
+          "cycle_number": 2,
+          "cycle_name": "Cycle 2 – Résistance",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "40' EF – Footing facile",
+              "duration_minutes": 40,
+              "description": "40 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 5×2' allure I Jack Daniels / 2' récup + 10' EF",
+              "duration_minutes": 50,
+              "description": "Semaine de récupération active. 20 min d'échauffement, 5×2' à allure I Jack Daniels avec 2' récupération, 10 min retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "45' EF – Sortie longue",
+              "duration_minutes": 45,
+              "description": "45 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 9,
+          "cycle_number": 3,
+          "cycle_name": "Cycle 3 – Spécifique 15 km",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "55' EF – Footing facile",
+              "duration_minutes": 55,
+              "description": "55 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 6×3' allure 15 km / 2' récup",
+              "duration_minutes": 50,
+              "description": "20 min d'échauffement, 6 répétitions de 3 minutes à allure cible 15 km avec 2 minutes de récupération active.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "75' EF – Sortie longue",
+              "duration_minutes": 75,
+              "description": "75 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 10,
+          "cycle_number": 3,
+          "cycle_name": "Cycle 3 – Spécifique 15 km",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "55' EF – Footing facile",
+              "duration_minutes": 55,
+              "description": "55 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 3×8' allure 15 km / 2' récup",
+              "duration_minutes": 50,
+              "description": "20 min d'échauffement, 3 répétitions de 8 minutes à allure cible 15 km avec 2 minutes de récupération active.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "80' EF – Sortie longue",
+              "duration_minutes": 80,
+              "description": "80 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 11,
+          "cycle_number": 3,
+          "cycle_name": "Cycle 3 – Spécifique 15 km",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "60' EF – Footing facile",
+              "duration_minutes": 60,
+              "description": "60 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 3×10' allure 15 km / 3' récup",
+              "duration_minutes": 59,
+              "description": "20 min d'échauffement, 3 répétitions de 10 minutes à allure cible 15 km avec 3 minutes de récupération active.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "90' EF – Sortie longue",
+              "duration_minutes": 90,
+              "description": "90 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 12,
+          "cycle_number": 3,
+          "cycle_name": "Cycle 3 – Spécifique 15 km",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "45' EF – Footing facile",
+              "duration_minutes": 45,
+              "description": "45 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "45' EF (décharge)",
+              "duration_minutes": 45,
+              "description": "Semaine de décharge avant la course. Footing facile de 45 min en Zone 1. Conservez l'énergie pour la course.",
+              "intensity_level": 3,
+              "pile_count": 1
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "15 km – Race Day ! 🎉",
+              "duration_minutes": null,
+              "description": "Course objectif 15 km ! Appliquez l'allure spécifique travaillée. Gérez bien votre énergie dans les 5 premiers km.",
+              "intensity_level": 3,
+              "pile_count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consolidation-semi-v1",
+      "plan_type": "semi",
+      "name": "Consolidation Semi-marathon",
+      "description": "Plan semi-marathon en 12 semaines (3 cycles de 4 semaines). Développe l'endurance et la résistance spécifique pour performer sur 21,1 km avec une sortie longue jusqu'à 1h40.",
+      "total_weeks": 12,
+      "sessions_per_week": 3,
+      "target_distance": 21097,
+      "weeks": [
+        {
+          "week_number": 1,
+          "cycle_number": 1,
+          "cycle_name": "Cycle 1 – Vitesse",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "45' EF – Footing facile",
+              "duration_minutes": 45,
+              "description": "45 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 8×1'30'' rapide / 1'30'' récup + 10' EF",
+              "duration_minutes": 54,
+              "description": "20 min d'échauffement, 8 répétitions de 1'30'' rapides avec 1'30'' de récupération active, 10 min de retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "50' EF – Sortie longue",
+              "duration_minutes": 50,
+              "description": "50 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée. La séance la plus importante de la semaine.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 2,
+          "cycle_number": 1,
+          "cycle_name": "Cycle 1 – Vitesse",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "50' EF – Footing facile",
+              "duration_minutes": 50,
+              "description": "50 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 6×2' rapide / 1'30'' récup + 10' EF",
+              "duration_minutes": 51,
+              "description": "20 min d'échauffement, 6 répétitions de 2 minutes rapides avec 1'30'' de récupération active, 10 min de retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "55' EF – Sortie longue",
+              "duration_minutes": 55,
+              "description": "55 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée. La séance la plus importante de la semaine.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 3,
+          "cycle_number": 1,
+          "cycle_name": "Cycle 1 – Vitesse",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "50' EF – Footing facile",
+              "duration_minutes": 50,
+              "description": "50 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 8×2' rapide / 1'30'' récup + 10' EF",
+              "duration_minutes": 58,
+              "description": "20 min d'échauffement, 8 répétitions de 2 minutes rapides avec 1'30'' de récupération active, 10 min de retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "60' EF – Sortie longue",
+              "duration_minutes": 60,
+              "description": "60 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée. La séance la plus importante de la semaine.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 4,
+          "cycle_number": 1,
+          "cycle_name": "Cycle 1 – Vitesse",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "45' EF – Footing facile",
+              "duration_minutes": 45,
+              "description": "45 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 8×1' rapide / 1' récup + 10' EF",
+              "duration_minutes": 46,
+              "description": "Semaine de récupération active. 20 min d'échauffement, 8×1' rapides avec 1' récupération, 10 min retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "45' EF – Sortie longue",
+              "duration_minutes": 45,
+              "description": "45 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée. La séance la plus importante de la semaine.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 5,
+          "cycle_number": 2,
+          "cycle_name": "Cycle 2 – Résistance",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "55' EF – Footing facile",
+              "duration_minutes": 55,
+              "description": "55 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 4×5' allure 15 km / 2' récup + 10' EF",
+              "duration_minutes": 58,
+              "description": "20 min d'échauffement, 4 répétitions de 5 minutes à allure 15 km avec 2 minutes de récupération active, 10 min de retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "60' EF – Sortie longue",
+              "duration_minutes": 60,
+              "description": "60 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée. La séance la plus importante de la semaine.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 6,
+          "cycle_number": 2,
+          "cycle_name": "Cycle 2 – Résistance",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "60' EF – Footing facile",
+              "duration_minutes": 60,
+              "description": "60 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 4×6' allure I Jack Daniels / 2' récup + 10' EF",
+              "duration_minutes": 62,
+              "description": "20 min d'échauffement, 4 répétitions de 6 minutes à allure Intervalle (Jack Daniels) avec 2 minutes de récupération active, 10 min de retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "70' EF – Sortie longue",
+              "duration_minutes": 70,
+              "description": "70 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée. La séance la plus importante de la semaine.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 7,
+          "cycle_number": 2,
+          "cycle_name": "Cycle 2 – Résistance",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "60' EF – Footing facile",
+              "duration_minutes": 60,
+              "description": "60 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 3×8' allure I Jack Daniels / 2' récup + 10' EF",
+              "duration_minutes": 60,
+              "description": "20 min d'échauffement, 3 répétitions de 8 minutes à allure Intervalle (Jack Daniels) avec 2 minutes de récupération active, 10 min de retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "80' EF – Sortie longue",
+              "duration_minutes": 80,
+              "description": "80 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée. La séance la plus importante de la semaine.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 8,
+          "cycle_number": 2,
+          "cycle_name": "Cycle 2 – Résistance",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "50' EF – Footing facile",
+              "duration_minutes": 50,
+              "description": "50 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 4×5' allure I Jack Daniels / 2' récup + 10' EF",
+              "duration_minutes": 58,
+              "description": "Semaine de récupération active. 20 min d'échauffement, 4×5' à allure I Jack Daniels avec 2' récupération, 10 min retour au calme.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "50' EF – Sortie longue",
+              "duration_minutes": 50,
+              "description": "50 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée. La séance la plus importante de la semaine.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 9,
+          "cycle_number": 3,
+          "cycle_name": "Cycle 3 – Spécifique Semi-marathon",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "60' EF – Footing facile",
+              "duration_minutes": 60,
+              "description": "60 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 4×6' allure semi / 2' récup",
+              "duration_minutes": 52,
+              "description": "20 min d'échauffement, 4 répétitions de 6 minutes à allure cible semi-marathon avec 2 minutes de récupération active.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "90' EF – Sortie longue",
+              "duration_minutes": 90,
+              "description": "90 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée. La séance la plus importante de la semaine.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 10,
+          "cycle_number": 3,
+          "cycle_name": "Cycle 3 – Spécifique Semi-marathon",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "50' EF – Footing facile",
+              "duration_minutes": 50,
+              "description": "50 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 3×10' allure semi / 3' récup",
+              "duration_minutes": 59,
+              "description": "20 min d'échauffement, 3 répétitions de 10 minutes à allure cible semi-marathon avec 3 minutes de récupération active.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "100' EF – Sortie longue",
+              "duration_minutes": 100,
+              "description": "100 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée. La séance la plus importante de la semaine.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 11,
+          "cycle_number": 3,
+          "cycle_name": "Cycle 3 – Spécifique Semi-marathon",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "55' EF – Footing facile",
+              "duration_minutes": 55,
+              "description": "55 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "20' EF + 3×8' allure semi / 2' récup",
+              "duration_minutes": 50,
+              "description": "20 min d'échauffement, 3 répétitions de 8 minutes à allure cible semi-marathon avec 2 minutes de récupération active.",
+              "intensity_level": 3,
+              "pile_count": 3
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "90' EF – Sortie longue",
+              "duration_minutes": 90,
+              "description": "90 minutes de sortie longue en endurance fondamentale (Zone 1–2). Courez à allure conversationnelle sur toute la durée. La séance la plus importante de la semaine.",
+              "intensity_level": 2,
+              "pile_count": 1
+            }
+          ]
+        },
+        {
+          "week_number": 12,
+          "cycle_number": 3,
+          "cycle_name": "Cycle 3 – Spécifique Semi-marathon",
+          "sessions": [
+            {
+              "session_number": 1,
+              "session_type": "E1",
+              "title": "45' EF – Footing facile",
+              "duration_minutes": 45,
+              "description": "45 minutes de footing facile en endurance fondamentale (Zone 1–2). Allure conversationnelle.",
+              "intensity_level": 1,
+              "pile_count": 1
+            },
+            {
+              "session_number": 2,
+              "session_type": "E2",
+              "title": "45' EF (tapering)",
+              "duration_minutes": 45,
+              "description": "Semaine de tapering avant le semi-marathon. Footing très facile de 45 min. Conservez toute votre énergie pour la course.",
+              "intensity_level": 3,
+              "pile_count": 1
+            },
+            {
+              "session_number": 3,
+              "session_type": "E3",
+              "title": "Semi-marathon – Race Day ! 🎉",
+              "duration_minutes": null,
+              "description": "C'est le grand jour ! 21,1 km. Partez à votre allure cible (entraînée pendant le cycle spécifique). Gérez votre effort : les 5 premiers km doivent sembler faciles.",
+              "intensity_level": 3,
+              "pile_count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -11,6 +11,10 @@ import LoadingSpinner from '@/components/LoadingSpinner';
 
 const COLORS = ['#0ea5e9', '#22c55e', '#f59e0b', '#ef4444'];
 
+function renderPieLabel({ name, percent }: { name: string; percent: number }) {
+  return `${name} ${Math.round(percent * 100)}%`;
+}
+
 export default function StatisticsPage() {
   const { user } = useAuthStore();
   const { sessions, isLoading, fetchSessions } = useSessionsStore();
@@ -129,7 +133,7 @@ export default function StatisticsPage() {
           ) : (
             <ResponsiveContainer width="100%" height={200}>
               <PieChart>
-                <Pie data={statusData} cx="50%" cy="50%" outerRadius={70} dataKey="value" label={({ name, percent }) => `${name} ${Math.round((percent as number) * 100)}%`} labelLine={false}>
+                <Pie data={statusData} cx="50%" cy="50%" outerRadius={70} dataKey="value" label={renderPieLabel} labelLine={false}>
                   {statusData.map((_, index) => (
                     <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                   ))}

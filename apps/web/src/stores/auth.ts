@@ -162,7 +162,7 @@ export const useAuthStore = create<AuthState>((set, get) => ({
         .eq('id', userId)
         .single();
       if (error) throw error;
-      set({ profile: data });
+      set({ profile: data as UserProfile });
     } catch (error) {
       console.error('Failed to fetch profile:', error);
     }
@@ -180,7 +180,7 @@ export const useAuthStore = create<AuthState>((set, get) => ({
         .select()
         .single();
       if (error) throw error;
-      set({ profile: data });
+      set({ profile: data as UserProfile });
     } catch (error) {
       set({ error: error instanceof Error ? error.message : 'Profile update failed' });
       throw error;

@@ -3,6 +3,7 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useAuthStore } from '@/stores/auth';
 import { profileUpdateSchema, type ProfileUpdateData } from '@/types/forms';
+import type { UserProfile } from '@/types/database';
 import { getStravaAuthUrl } from '@/utils/strava';
 import { getStripe, SUBSCRIPTION_PRICES, formatPrice } from '@/utils/stripe';
 import Card from '@/components/Card';
@@ -31,7 +32,7 @@ export default function SettingsPage() {
 
   const onSaveProfile = async (data: ProfileUpdateData) => {
     try {
-      await updateProfile(data);
+      await updateProfile(data as Partial<UserProfile>);
     } catch {
       // Error handled in store
     }

@@ -37,7 +37,7 @@ export const useNutritionStore = create<NutritionState>((set) => ({
 
       const { data, error } = await query;
       if (error) throw error;
-      set({ logs: data });
+      set({ logs: data as NutritionLog[] });
     } catch (error) {
       set({ error: error instanceof Error ? error.message : 'Failed to fetch nutrition logs' });
     } finally {
@@ -55,7 +55,7 @@ export const useNutritionStore = create<NutritionState>((set) => ({
         .eq('date', today)
         .maybeSingle();
       if (error) throw error;
-      set({ todayLog: data });
+      set({ todayLog: data as NutritionLog | null });
     } catch (error) {
       console.error('Failed to fetch today log:', error);
     }
@@ -70,9 +70,10 @@ export const useNutritionStore = create<NutritionState>((set) => ({
         .select()
         .single();
       if (error) throw error;
+      const created = data as NutritionLog;
       set((state) => ({
-        logs: [data, ...state.logs],
-        todayLog: data,
+        logs: [created, ...state.logs],
+        todayLog: created,
       }));
     } catch (error) {
       set({ error: error instanceof Error ? error.message : 'Failed to create nutrition log' });
@@ -92,9 +93,10 @@ export const useNutritionStore = create<NutritionState>((set) => ({
         .select()
         .single();
       if (error) throw error;
+      const updated = data as NutritionLog;
       set((state) => ({
-        logs: state.logs.map((l) => (l.id === id ? { ...l, ...data } : l)),
-        todayLog: state.todayLog?.id === id ? { ...state.todayLog, ...data } : state.todayLog,
+        logs: state.logs.map((l) => (l.id === id ? { ...l, ...updated } : l)),
+        todayLog: state.todayLog?.id === id ? { ...state.todayLog, ...updated } : state.todayLog,
       }));
     } catch (error) {
       set({ error: error instanceof Error ? error.message : 'Failed to update nutrition log' });

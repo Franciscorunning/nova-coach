@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import { supabase } from '@/utils/supabase';
-import type { UserSession, TrainingPlan, SessionStatus, UserFeedback } from '@/types/database';
+import type { UserSession, UserSessionRow, TrainingPlan, SessionStatus, UserFeedback, Json } from '@/types/database';
 import { format } from 'date-fns';
 
 interface SessionsState {
@@ -76,7 +76,7 @@ export const useSessionsStore = create<SessionsState>((set) => ({
       }
       const { data, error } = await query;
       if (error) throw error;
-      set({ trainingPlans: data });
+      set({ trainingPlans: data as TrainingPlan[] });
     } catch (error) {
       set({ error: error instanceof Error ? error.message : 'Failed to fetch training plans' });
     } finally {
@@ -89,13 +89,14 @@ export const useSessionsStore = create<SessionsState>((set) => ({
       set({ isLoading: true, error: null });
 
       // Fetch all sessions for the plan
-      const { data: plans, error: planError } = await supabase
+      const { data: rawPlans, error: planError } = await supabase
         .from('training_plans')
         .select('*')
         .eq('plan_type', planType)
         .order('week_number')
         .order('session_number');
       if (planError) throw planError;
+      const plans = rawPlans as TrainingPlan[];
 
       // Create user sessions with scheduled dates (3 sessions/week)
       const sessionsToInsert = plans.map((plan, index) => {
@@ -131,17 +132,17 @@ export const useSessionsStore = create<SessionsState>((set) => ({
         .from('user_sessions')
         .update({
           status,
-          ...(feedback && { user_feedback: feedback }),
+          ...(feedback && { user_feedback: feedback as Json }),
           ...(status === 'completed' && { completed_at: new Date().toISOString() }),
         })
         .eq('id', sessionId)
         .select()
         .single();
       if (error) throw error;
-
+      const updated = data as UserSessionRow;
       set((state) => ({
-        sessions: state.sessions.map((s) => (s.id === sessionId ? { ...s, ...data } : s)),
-        currentSession: state.currentSession?.id === sessionId ? { ...state.currentSession, ...data } : state.currentSession,
+        sessions: state.sessions.map((s) => (s.id === sessionId ? { ...s, ...updated } : s)),
+        currentSession: state.currentSession?.id === sessionId ? { ...state.currentSession, ...updated } : state.currentSession,
       }));
     } catch (error) {
       set({ error: error instanceof Error ? error.message : 'Failed to update session' });
@@ -158,7 +159,7 @@ export const useSessionsStore = create<SessionsState>((set) => ({
         .from('user_sessions')
         .update({
           status: 'completed',
-          user_feedback: feedback,
+          user_feedback: feedback as Json,
           completed_at: new Date().toISOString(),
           ...(actualDuration && { actual_duration_seconds: actualDuration }),
           ...(actualDistance && { actual_distance_meters: actualDistance }),
@@ -167,10 +168,10 @@ export const useSessionsStore = create<SessionsState>((set) => ({
         .select()
         .single();
       if (error) throw error;
-
+      const updated = data as UserSessionRow;
       set((state) => ({
-        sessions: state.sessions.map((s) => (s.id === sessionId ? { ...s, ...data } : s)),
-        currentSession: state.currentSession?.id === sessionId ? { ...state.currentSession, ...data } : state.currentSession,
+        sessions: state.sessions.map((s) => (s.id === sessionId ? { ...s, ...updated } : s)),
+        currentSession: state.currentSession?.id === sessionId ? { ...state.currentSession, ...updated } : state.currentSession,
       }));
     } catch (error) {
       set({ error: error instanceof Error ? error.message : 'Failed to complete session' });

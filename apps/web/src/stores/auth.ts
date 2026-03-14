@@ -154,9 +154,12 @@ export const useAuthStore = create<AuthState>((set, get) => ({
 
   fetchProfile: async () => {
     try {
+      const userId = get().user?.id;
+      if (!userId) return;
       const { data, error } = await supabase
         .from('users_profiles')
         .select('*')
+        .eq('id', userId)
         .single();
       if (error) throw error;
       set({ profile: data });
@@ -168,9 +171,12 @@ export const useAuthStore = create<AuthState>((set, get) => ({
   updateProfile: async (updates: Partial<UserProfile>) => {
     try {
       set({ isLoading: true, error: null });
+      const userId = get().user?.id;
+      if (!userId) throw new Error('No authenticated user');
       const { data, error } = await supabase
         .from('users_profiles')
         .update(updates)
+        .eq('id', userId)
         .select()
         .single();
       if (error) throw error;

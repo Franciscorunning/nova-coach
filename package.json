@@ -1,0 +1,20 @@
+{
+  "name": "nova-coach",
+  "version": "1.0.0",
+  "description": "NOVA COACH – Application de coaching running personnalisée",
+  "private": true,
+  "scripts": {
+    "seed:plans": "tsx scripts/seed-training-plans.ts",
+    "generate:sql": "tsx scripts/generatePlanSQL.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.43.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.15.0",
+    "typescript": "^5.4.5"
+  }
+}

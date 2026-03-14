@@ -73,7 +73,7 @@ curl -X POST https://www.strava.com/api/v3/push_subscriptions \
 ### Create Products
 1. Go to Stripe Dashboard → Products
 2. Create "NOVA COACH Premium" product
-3. Add monthly price ($9.99/month) and yearly price ($79.99/year)
+3. Add monthly price (e.g. €9.99/month) and yearly price (e.g. €79.99/year)
 4. Note the Price IDs
 
 ### Configure Webhooks

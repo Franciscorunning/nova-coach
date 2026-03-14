@@ -1,0 +1,120 @@
+[
+  {
+    "category": "féculents",
+    "mealContext": "petit-déjeuner",
+    "items": [
+      { "name": "Pain blanc", "quantity": 100, "unit": "gr" },
+      { "name": "Pain complet", "quantity": 100, "unit": "gr" },
+      { "name": "Galettes riz", "quantity": 65, "unit": "gr", "calories": 242 },
+      { "name": "Galettes maïs", "quantity": 65, "unit": "gr" },
+      { "name": "Crème riz", "quantity": 65, "unit": "gr" },
+      { "name": "Farine avoine", "quantity": 65, "unit": "gr" },
+      { "name": "Corn flakes", "quantity": 65, "unit": "gr" },
+      { "name": "Flocons avoine", "quantity": 65, "unit": "gr" },
+      { "name": "Pain Wasa", "quantity": 65, "unit": "gr" },
+      { "name": "Granola", "quantity": 50, "unit": "gr" },
+      { "name": "Muesli", "quantity": 50, "unit": "gr" }
+    ]
+  },
+  {
+    "category": "protéines",
+    "mealContext": "petit-déjeuner",
+    "items": [
+      { "name": "Poitrine poulet", "quantity": 100, "unit": "gr" },
+      { "name": "Poitrine dinde", "quantity": 100, "unit": "gr" },
+      { "name": "Jambon cuit", "quantity": 90, "unit": "gr" },
+      { "name": "Maquereau", "quantity": 60, "unit": "gr" },
+      { "name": "Saumon fumé", "quantity": 60, "unit": "gr" },
+      { "name": "Anchois", "quantity": 60, "unit": "gr" },
+      { "name": "Jambon Parme", "quantity": 50, "unit": "gr" },
+      { "name": "Jambon Serrano", "quantity": 50, "unit": "gr" },
+      { "name": "Œufs entiers", "quantity": 180, "unit": "gr" },
+      { "name": "Blanc d'œuf battu 0%", "quantity": 100, "unit": "gr" },
+      { "name": "Cottage cheese 0%", "quantity": 100, "unit": "gr" },
+      { "name": "Fromage blanc", "quantity": 50, "unit": "gr" },
+      { "name": "Blanc d'œuf", "quantity": 100, "unit": "gr" },
+      { "name": "Yaourt écrémé", "quantity": 300, "unit": "gr" },
+      { "name": "Yaourt nature", "quantity": 250, "unit": "gr" },
+      { "name": "Whey protéine", "quantity": 30, "unit": "gr" },
+      { "name": "Lait écrémé", "quantity": 350, "unit": "ml" }
+    ]
+  },
+  {
+    "category": "graisses",
+    "mealContext": "petit-déjeuner",
+    "items": [
+      { "name": "Huile coco", "quantity": 10, "unit": "gr" },
+      { "name": "Beurre", "quantity": 10, "unit": "gr" },
+      { "name": "Avocat", "quantity": 50, "unit": "gr" },
+      { "name": "Houmous", "quantity": 50, "unit": "gr" },
+      { "name": "Noix", "quantity": 15, "unit": "gr" },
+      { "name": "Beurre cacahuètes", "quantity": 15, "unit": "gr" },
+      { "name": "Cacao pur poudre", "quantity": 15, "unit": "gr" },
+      { "name": "Chocolat noir 85%", "quantity": 15, "unit": "gr" }
+    ]
+  },
+  {
+    "category": "fruits",
+    "mealContext": "général",
+    "items": [
+      { "name": "Miel", "quantity": 20, "unit": "gr" },
+      { "name": "Confiture", "quantity": 25, "unit": "gr" },
+      { "name": "Banane", "quantity": 120, "unit": "gr" },
+      { "name": "Autres fruits", "quantity": 150, "unit": "gr" },
+      { "name": "Raisins", "quantity": 120, "unit": "gr" },
+      { "name": "Pastèque", "quantity": 200, "unit": "gr" },
+      { "name": "Melon", "quantity": 200, "unit": "gr" }
+    ]
+  },
+  {
+    "category": "féculents",
+    "mealContext": "déjeuner-souper",
+    "items": [
+      { "name": "Riz", "quantity": 100, "unit": "gr" },
+      { "name": "Pâtes", "quantity": 100, "unit": "gr" },
+      { "name": "Millet", "quantity": 100, "unit": "gr" },
+      { "name": "Quinoa", "quantity": 105, "unit": "gr" },
+      { "name": "Patates", "quantity": 500, "unit": "gr" },
+      { "name": "Patates douces", "quantity": 350, "unit": "gr" },
+      { "name": "Manioc", "quantity": 350, "unit": "gr" },
+      { "name": "Gnocchis", "quantity": 220, "unit": "gr" },
+      { "name": "Purée poudre", "quantity": 100, "unit": "gr" },
+      { "name": "Pain", "quantity": 120, "unit": "gr" },
+      { "name": "Pain Fajitas", "quantity": 120, "unit": "gr" },
+      { "name": "Légumineuses conserve", "quantity": 350, "unit": "gr" }
+    ]
+  },
+  {
+    "category": "protéines",
+    "mealContext": "déjeuner-souper",
+    "items": [
+      { "name": "Poitrine poulet", "quantity": 120, "unit": "gr" },
+      { "name": "Poitrine dinde", "quantity": 120, "unit": "gr" },
+      { "name": "Viande porc", "quantity": 110, "unit": "gr" },
+      { "name": "Filet bœuf", "quantity": 100, "unit": "gr" },
+      { "name": "Lapin avec os", "quantity": 200, "unit": "gr" },
+      { "name": "Poisson blanc", "quantity": 130, "unit": "gr" },
+      { "name": "Poisson gras", "quantity": 100, "unit": "gr" },
+      { "name": "Fruit de mer", "quantity": 120, "unit": "gr" },
+      { "name": "Poulpe", "quantity": 180, "unit": "gr" },
+      { "name": "Crevettes", "quantity": 180, "unit": "gr" },
+      { "name": "Calamar", "quantity": 180, "unit": "gr" },
+      { "name": "Thon nature", "quantity": 60, "unit": "gr" },
+      { "name": "Œufs entiers", "quantity": 120, "unit": "gr" },
+      { "name": "Blanc d'œuf", "quantity": 250, "unit": "gr" },
+      { "name": "Soja", "quantity": 40, "unit": "gr" }
+    ]
+  },
+  {
+    "category": "graisses",
+    "mealContext": "déjeuner-souper",
+    "items": [
+      { "name": "Avocat", "quantity": 50, "unit": "gr" },
+      { "name": "Guacamole", "quantity": 50, "unit": "gr" },
+      { "name": "Olives", "quantity": 40, "unit": "gr" },
+      { "name": "Houmous", "quantity": 50, "unit": "gr" },
+      { "name": "Fromage", "quantity": 40, "unit": "gr" },
+      { "name": "Noix", "quantity": 15, "unit": "gr" }
+    ]
+  }
+]

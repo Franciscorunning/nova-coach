@@ -1,0 +1,827 @@
+[
+  {
+    "pile": 1,
+    "dayType": "Repos / Récupération",
+    "description": "Plan faible intensité pour les jours de repos ou de récupération active. Apport glucidique réduit.",
+    "meals": [
+      {
+        "type": "petit-déjeuner",
+        "options": [
+          {
+            "optionNumber": 1,
+            "name": "Yaourt + Flocons + Beurre cacahuètes",
+            "foods": [
+              { "name": "Yaourt nature", "quantity": 200, "unit": "gr" },
+              { "name": "Whey protéine", "quantity": 20, "unit": "gr" },
+              { "name": "Flocons avoine", "quantity": 50, "unit": "gr" },
+              { "name": "Beurre cacahuètes", "quantity": 20, "unit": "gr" },
+              { "name": "Fruit", "quantity": 1, "unit": "1" }
+            ]
+          },
+          {
+            "optionNumber": 2,
+            "name": "Toast + Beurre cacahuètes + Blanc battu",
+            "foods": [
+              { "name": "Toast pain", "quantity": 60, "unit": "gr" },
+              { "name": "Beurre cacahuètes", "quantity": 30, "unit": "gr" },
+              { "name": "Blanc battu 0%", "quantity": 250, "unit": "gr" },
+              { "name": "Cacao dégraissé", "quantity": 10, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 3,
+            "name": "Farine patate douce + Œufs",
+            "foods": [
+              { "name": "Farine patate douce", "quantity": 45, "unit": "gr" },
+              { "name": "Œufs", "quantity": 2, "unit": "1" },
+              { "name": "Lait", "quantity": 45, "unit": "ml" },
+              { "name": "Beurre cacahuètes", "quantity": 20, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 4,
+            "name": "Toast + Œufs + Tomates",
+            "foods": [
+              { "name": "Toast pain", "quantity": 60, "unit": "gr" },
+              { "name": "Tomates", "quantity": 50, "unit": "gr" },
+              { "name": "Œufs", "quantity": 2, "unit": "1" },
+              { "name": "Blanc battu 0%", "quantity": 60, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" },
+              { "name": "Fruit", "quantity": 1, "unit": "1" }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "encas matin",
+        "options": [
+          {
+            "optionNumber": 1,
+            "name": "Pain + Dinde + Avocat",
+            "foods": [
+              { "name": "Pain", "quantity": 60, "unit": "gr" },
+              { "name": "Dinde", "quantity": 40, "unit": "gr" },
+              { "name": "Avocat", "quantity": 30, "unit": "gr" },
+              { "name": "Fruit", "quantity": 1, "unit": "1" }
+            ]
+          },
+          {
+            "optionNumber": 2,
+            "name": "Blanc battu + Corn Flakes + Chocolat",
+            "foods": [
+              { "name": "Blanc battu 0%", "quantity": 120, "unit": "gr" },
+              { "name": "Corn Flakes", "quantity": 40, "unit": "gr" },
+              { "name": "Chocolat noir 85%", "quantity": 10, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 3,
+            "name": "Pain + Hummus + Blanc battu",
+            "foods": [
+              { "name": "Pain", "quantity": 60, "unit": "gr" },
+              { "name": "Hummus", "quantity": 30, "unit": "gr" },
+              { "name": "Blanc battu 0%", "quantity": 60, "unit": "gr" }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "déjeuner",
+        "options": [
+          {
+            "optionNumber": 1,
+            "name": "Quinoa + Pois chiche + Champignons + Œufs",
+            "foods": [
+              { "name": "Quinoa", "quantity": 120, "unit": "gr" },
+              { "name": "Pois chiche cuit", "quantity": 150, "unit": "gr" },
+              { "name": "Champignons", "quantity": 150, "unit": "gr" },
+              { "name": "Œufs", "quantity": 2, "unit": "1" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 2,
+            "name": "Patates + Saumon + Légumes",
+            "foods": [
+              { "name": "Patates", "quantity": 200, "unit": "gr" },
+              { "name": "Légumes crus", "quantity": 150, "unit": "gr" },
+              { "name": "Saumon", "quantity": 200, "unit": "gr" },
+              { "name": "Fruit", "quantity": 1, "unit": "1" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 3,
+            "name": "Pâtes + Tofu + Tomates Cherry",
+            "foods": [
+              { "name": "Pâtes", "quantity": 70, "unit": "gr" },
+              { "name": "Tofu", "quantity": 150, "unit": "gr" },
+              { "name": "Tomates Cherry", "quantity": 150, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" },
+              { "name": "Hummus", "quantity": 20, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 4,
+            "name": "Riz + Edamame + Poulet + Avocat",
+            "foods": [
+              { "name": "Riz", "quantity": 70, "unit": "gr" },
+              { "name": "Edamame", "quantity": 50, "unit": "gr" },
+              { "name": "Poulet", "quantity": 140, "unit": "gr" },
+              { "name": "Avocat", "quantity": 40, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" },
+              { "name": "Légumes", "quantity": 150, "unit": "gr" }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "encas après-midi",
+        "options": [
+          {
+            "optionNumber": 1,
+            "name": "Yaourt + Noix + Fruit",
+            "foods": [
+              { "name": "Yaourt nature", "quantity": 120, "unit": "gr" },
+              { "name": "Noix", "quantity": 15, "unit": "gr" },
+              { "name": "Fruit", "quantity": 1, "unit": "1" }
+            ]
+          },
+          {
+            "optionNumber": 2,
+            "name": "Galettes riz + Avocat + Poulet",
+            "foods": [
+              { "name": "Galettes riz", "quantity": 30, "unit": "gr" },
+              { "name": "Avocat", "quantity": 40, "unit": "gr" },
+              { "name": "Poulet", "quantity": 40, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 3,
+            "name": "Chocolat noir + Fruit",
+            "foods": [
+              { "name": "Chocolat noir 85%", "quantity": 20, "unit": "gr" },
+              { "name": "Fruit", "quantity": 1, "unit": "1" }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "souper",
+        "options": [
+          {
+            "optionNumber": 1,
+            "name": "Patates douces + Veau + Brocoli",
+            "foods": [
+              { "name": "Patates douces", "quantity": 200, "unit": "gr" },
+              { "name": "Viande veau", "quantity": 140, "unit": "gr" },
+              { "name": "Brocoli", "quantity": 150, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 2,
+            "name": "Quinoa + Poulet + Légumes",
+            "foods": [
+              { "name": "Quinoa", "quantity": 120, "unit": "gr" },
+              { "name": "Poulet", "quantity": 140, "unit": "gr" },
+              { "name": "Légumes", "quantity": 150, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 3,
+            "name": "Gnocchis + Légumes + Œufs",
+            "foods": [
+              { "name": "Gnocchis", "quantity": 120, "unit": "gr" },
+              { "name": "Légumes", "quantity": 100, "unit": "gr" },
+              { "name": "Œufs", "quantity": 120, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 4,
+            "name": "Galettes Fajitas + Poulet + Poivrons",
+            "foods": [
+              { "name": "Galettes Fajitas", "quantity": 72, "unit": "gr" },
+              { "name": "Poivrons rouge", "quantity": 100, "unit": "gr" },
+              { "name": "Poivrons vert", "quantity": 100, "unit": "gr" },
+              { "name": "Poulet", "quantity": 140, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 5,
+            "name": "Sleep Low – Œufs + Mozzarella + Guacamole",
+            "foods": [
+              { "name": "Œufs", "quantity": 2, "unit": "1" },
+              { "name": "Mozzarella", "quantity": 40, "unit": "gr" },
+              { "name": "Légumes crus", "quantity": 100, "unit": "gr" },
+              { "name": "Guacamole", "quantity": 40, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 6,
+            "name": "Sleep Low – Veau + Légumes + Mozzarella",
+            "foods": [
+              { "name": "Viande veau", "quantity": 160, "unit": "gr" },
+              { "name": "Légumes crus", "quantity": 100, "unit": "gr" },
+              { "name": "Mozzarella", "quantity": 20, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 7,
+            "name": "Sleep Low – Saumon + Légumes",
+            "foods": [
+              { "name": "Légumes crus", "quantity": 100, "unit": "gr" },
+              { "name": "Saumon", "quantity": 200, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" }
+            ]
+          }
+        ]
+      }
+    ],
+    "supplements": [
+      {
+        "name": "Magnésium Malate",
+        "dosage": "200mg",
+        "timing": "avant dodo avec souper",
+        "comment": "Favorise la récupération et le sommeil"
+      },
+      {
+        "name": "Vitamine D",
+        "dosage": "2000 IU",
+        "timing": "matin petit-déjeuner",
+        "comment": "À prendre avec repas contenant des graisses"
+      },
+      {
+        "name": "Oméga 3",
+        "dosage": "1000mg",
+        "timing": "1x jour",
+        "comment": "Anti-inflammatoire, santé cardiovasculaire"
+      }
+    ]
+  },
+  {
+    "pile": 2,
+    "dayType": "Entraînement modéré",
+    "description": "Plan pour entraînements modérés : footing tranquille, double tranquille. Apport glucidique intermédiaire.",
+    "meals": [
+      {
+        "type": "petit-déjeuner",
+        "options": [
+          {
+            "optionNumber": 1,
+            "name": "Boisson végétale + Whey + Flocons + Chocolat",
+            "foods": [
+              { "name": "Boisson végétale", "quantity": 250, "unit": "ml" },
+              { "name": "Whey protéine", "quantity": 20, "unit": "gr" },
+              { "name": "Flocons avoine", "quantity": 80, "unit": "gr" },
+              { "name": "Chocolat noir 85%", "quantity": 20, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 2,
+            "name": "Muesli + Beurre cacahuètes + Blanc battu + Dattes",
+            "foods": [
+              { "name": "Muesli sans sucres", "quantity": 50, "unit": "gr" },
+              { "name": "Beurre cacahuètes", "quantity": 20, "unit": "gr" },
+              { "name": "Blanc battu 0%", "quantity": 200, "unit": "gr" },
+              { "name": "Dattes", "quantity": 50, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 3,
+            "name": "Farine patate douce + Œufs + Banane",
+            "foods": [
+              { "name": "Farine patate douce", "quantity": 60, "unit": "gr" },
+              { "name": "Œufs", "quantity": 2, "unit": "1" },
+              { "name": "Lait", "quantity": 60, "unit": "ml" },
+              { "name": "Beurre cacahuètes", "quantity": 20, "unit": "gr" },
+              { "name": "Banane", "quantity": 1, "unit": "1" }
+            ]
+          },
+          {
+            "optionNumber": 4,
+            "name": "Pain + Blanc d'œufs + Banane",
+            "foods": [
+              { "name": "Pain", "quantity": 90, "unit": "gr" },
+              { "name": "Blanc d'œufs", "quantity": 120, "unit": "gr" },
+              { "name": "Œufs", "quantity": 1, "unit": "1" },
+              { "name": "Huile olive", "quantity": 5, "unit": "gr" },
+              { "name": "Banane", "quantity": 1, "unit": "1" }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "encas matin",
+        "options": [
+          {
+            "optionNumber": 1,
+            "name": "Pain + Jambon parme + Fruit",
+            "foods": [
+              { "name": "Pain", "quantity": 60, "unit": "gr" },
+              { "name": "Jambon parme", "quantity": 40, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 5, "unit": "gr" },
+              { "name": "Fruit", "quantity": 1, "unit": "1" }
+            ]
+          },
+          {
+            "optionNumber": 2,
+            "name": "Flocons avoine + Fruit + Boisson végétale",
+            "foods": [
+              { "name": "Flocons avoine", "quantity": 30, "unit": "gr" },
+              { "name": "Fruit", "quantity": 1, "unit": "1" },
+              { "name": "Boisson végétale", "quantity": 150, "unit": "ml" }
+            ]
+          },
+          {
+            "optionNumber": 3,
+            "name": "Yaourt + Fruit + Barre NAKD",
+            "foods": [
+              { "name": "Yaourt naturel", "quantity": 120, "unit": "gr" },
+              { "name": "Fruit", "quantity": 1, "unit": "1" },
+              { "name": "Barre NAKD", "quantity": 35, "unit": "gr" }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "déjeuner",
+        "options": [
+          {
+            "optionNumber": 1,
+            "name": "Riz blanc + Poulet + Champignons + Fruits secs",
+            "foods": [
+              { "name": "Riz blanc", "quantity": 80, "unit": "gr" },
+              { "name": "Poulet", "quantity": 140, "unit": "gr" },
+              { "name": "Champignons", "quantity": 150, "unit": "gr" },
+              { "name": "Fruits secs", "quantity": 20, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" },
+              { "name": "Sauce soja", "quantity": 10, "unit": "ml" }
+            ]
+          },
+          {
+            "optionNumber": 2,
+            "name": "Spaghettis + Sauce tomate + Mozzarella",
+            "foods": [
+              { "name": "Spaghettis", "quantity": 90, "unit": "gr" },
+              { "name": "Sauce tomate", "quantity": 120, "unit": "gr" },
+              { "name": "Mozzarella light", "quantity": 120, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 3,
+            "name": "Gnocchis + Poulet + Légumes",
+            "foods": [
+              { "name": "Gnocchis", "quantity": 180, "unit": "gr" },
+              { "name": "Poulet", "quantity": 140, "unit": "gr" },
+              { "name": "Légumes", "quantity": 150, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 4,
+            "name": "Patates douces + Poisson blanc + Légumes",
+            "foods": [
+              { "name": "Patates douces", "quantity": 250, "unit": "gr" },
+              { "name": "Légumes", "quantity": 150, "unit": "gr" },
+              { "name": "Poisson blanc", "quantity": 160, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "encas après-midi",
+        "options": [
+          {
+            "optionNumber": 1,
+            "name": "Yaourt + Flocons + Banane",
+            "foods": [
+              { "name": "Yaourt nature", "quantity": 120, "unit": "gr" },
+              { "name": "Flocons avoine", "quantity": 20, "unit": "gr" },
+              { "name": "Banane", "quantity": 1, "unit": "1" }
+            ]
+          },
+          {
+            "optionNumber": 2,
+            "name": "Pain + Blanc battu + Fruit",
+            "foods": [
+              { "name": "Pain", "quantity": 55, "unit": "gr" },
+              { "name": "Blanc battu 0%", "quantity": 40, "unit": "gr" },
+              { "name": "Fruit", "quantity": 1, "unit": "1" }
+            ]
+          },
+          {
+            "optionNumber": 3,
+            "name": "Yaourt + 2 Fruits",
+            "foods": [
+              { "name": "Yaourt nature", "quantity": 120, "unit": "gr" },
+              { "name": "Fruit", "quantity": 2, "unit": "1" }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "souper",
+        "options": [
+          {
+            "optionNumber": 1,
+            "name": "Pain Hamburger + Veau + Patates",
+            "foods": [
+              { "name": "Pain Hamburger", "quantity": 90, "unit": "gr" },
+              { "name": "Viande veau", "quantity": 140, "unit": "gr" },
+              { "name": "Patates", "quantity": 300, "unit": "gr" },
+              { "name": "Légumes crus", "quantity": 100, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 2,
+            "name": "Noodles riz + Poulet + Légumes + Fruits secs",
+            "foods": [
+              { "name": "Noodles riz", "quantity": 90, "unit": "gr" },
+              { "name": "Poulet", "quantity": 140, "unit": "gr" },
+              { "name": "Légumes", "quantity": 100, "unit": "gr" },
+              { "name": "Fruits secs", "quantity": 20, "unit": "gr" },
+              { "name": "Miel", "quantity": 10, "unit": "gr" },
+              { "name": "Moutarde", "quantity": 10, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" },
+              { "name": "Fruit", "quantity": 1, "unit": "1" }
+            ]
+          },
+          {
+            "optionNumber": 3,
+            "name": "Galettes Fajitas + Poulet + Légumes + Riz",
+            "foods": [
+              { "name": "Galettes Fajitas", "quantity": 120, "unit": "gr" },
+              { "name": "Légumes", "quantity": 150, "unit": "gr" },
+              { "name": "Poulet", "quantity": 140, "unit": "gr" },
+              { "name": "Riz", "quantity": 40, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 4,
+            "name": "Spaghettis + Gambas + Avocat + Miel",
+            "foods": [
+              { "name": "Spaghettis", "quantity": 90, "unit": "gr" },
+              { "name": "Gambas", "quantity": 120, "unit": "gr" },
+              { "name": "Avocat", "quantity": 60, "unit": "gr" },
+              { "name": "Légumes crus", "quantity": 100, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" },
+              { "name": "Miel", "quantity": 15, "unit": "gr" },
+              { "name": "Fruit", "quantity": 150, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 5,
+            "name": "Sleep Low – Œufs + Mozzarella + Guacamole",
+            "foods": [
+              { "name": "Œufs", "quantity": 2, "unit": "1" },
+              { "name": "Mozzarella", "quantity": 40, "unit": "gr" },
+              { "name": "Légumes crus", "quantity": 100, "unit": "gr" },
+              { "name": "Guacamole", "quantity": 40, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 6,
+            "name": "Sleep Low – Veau + Légumes + Mozzarella",
+            "foods": [
+              { "name": "Viande veau", "quantity": 160, "unit": "gr" },
+              { "name": "Légumes crus", "quantity": 100, "unit": "gr" },
+              { "name": "Mozzarella", "quantity": 20, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 7,
+            "name": "Sleep Low – Saumon + Légumes",
+            "foods": [
+              { "name": "Légumes crus", "quantity": 100, "unit": "gr" },
+              { "name": "Saumon", "quantity": 200, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" }
+            ]
+          }
+        ]
+      }
+    ],
+    "supplements": [
+      {
+        "name": "Magnésium Malate",
+        "dosage": "200mg",
+        "timing": "avant dodo avec souper",
+        "comment": "Favorise la récupération et le sommeil"
+      },
+      {
+        "name": "Vitamine D",
+        "dosage": "2000 IU",
+        "timing": "matin petit-déjeuner",
+        "comment": "À prendre avec repas contenant des graisses"
+      },
+      {
+        "name": "Oméga 3",
+        "dosage": "1000mg",
+        "timing": "1x jour",
+        "comment": "Anti-inflammatoire, santé cardiovasculaire"
+      }
+    ]
+  },
+  {
+    "pile": 3,
+    "dayType": "Haute intensité / Grand volume",
+    "description": "Plan pour séances intenses ou longues sorties. Apport glucidique élevé pour soutenir la performance.",
+    "meals": [
+      {
+        "type": "petit-déjeuner",
+        "options": [
+          {
+            "optionNumber": 1,
+            "name": "Yaourt + Banane + Whey + Corn Flakes",
+            "foods": [
+              { "name": "Yaourt naturel", "quantity": 150, "unit": "gr" },
+              { "name": "Banane", "quantity": 1, "unit": "1" },
+              { "name": "Whey protéine", "quantity": 20, "unit": "gr" },
+              { "name": "Chocolat noir 85%", "quantity": 10, "unit": "gr" },
+              { "name": "Corn Flakes", "quantity": 50, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 2,
+            "name": "Crème riz + Whey + Dattes",
+            "foods": [
+              { "name": "Crème riz", "quantity": 60, "unit": "gr" },
+              { "name": "Whey protéine", "quantity": 20, "unit": "gr" },
+              { "name": "Dattes", "quantity": 40, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 3,
+            "name": "Farine patate douce + Œufs + Miel + Banane",
+            "foods": [
+              { "name": "Farine patate douce", "quantity": 60, "unit": "gr" },
+              { "name": "Œufs", "quantity": 2, "unit": "1" },
+              { "name": "Lait", "quantity": 60, "unit": "ml" },
+              { "name": "Miel", "quantity": 10, "unit": "gr" },
+              { "name": "Banane", "quantity": 1, "unit": "1" }
+            ]
+          },
+          {
+            "optionNumber": 4,
+            "name": "Pain + Miel + Sel + Banane",
+            "foods": [
+              { "name": "Pain", "quantity": 60, "unit": "gr" },
+              { "name": "Miel", "quantity": 20, "unit": "gr" },
+              { "name": "Sel", "quantity": 2, "unit": "gr" },
+              { "name": "Banane", "quantity": 1, "unit": "1" }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "encas matin",
+        "options": [
+          {
+            "optionNumber": 1,
+            "name": "Pain + Jambon cuit + Banane",
+            "foods": [
+              { "name": "Pain", "quantity": 60, "unit": "gr" },
+              { "name": "Jambon cuit", "quantity": 40, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 5, "unit": "gr" },
+              { "name": "Banane", "quantity": 1, "unit": "1" }
+            ]
+          },
+          {
+            "optionNumber": 2,
+            "name": "Muesli + Dattes + Yaourt",
+            "foods": [
+              { "name": "Muesli sans sucre", "quantity": 40, "unit": "gr" },
+              { "name": "Dattes", "quantity": 40, "unit": "gr" },
+              { "name": "Yaourt", "quantity": 120, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 3,
+            "name": "Blanc battu + Banane + Avoine",
+            "foods": [
+              { "name": "Blanc battu 0%", "quantity": 200, "unit": "gr" },
+              { "name": "Banane", "quantity": 1, "unit": "1" },
+              { "name": "Flocons avoine", "quantity": 30, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 4,
+            "name": "Recovery drink + Banane + Lait",
+            "foods": [
+              { "name": "Recovery drink", "quantity": 50, "unit": "gr" },
+              { "name": "Banane", "quantity": 1, "unit": "1" },
+              { "name": "Lait semi-écrémé", "quantity": 250, "unit": "ml" }
+            ]
+          },
+          {
+            "optionNumber": 5,
+            "name": "Blanc battu mixé + Banane + Lait + Baies + Corn Flakes",
+            "foods": [
+              { "name": "Blanc battu 0% mixé", "quantity": 200, "unit": "gr" },
+              { "name": "Banane", "quantity": 1, "unit": "1" },
+              { "name": "Lait semi-écrémé", "quantity": 150, "unit": "ml" },
+              { "name": "Baies", "quantity": 50, "unit": "gr" },
+              { "name": "Corn Flakes", "quantity": 20, "unit": "gr" }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "déjeuner",
+        "options": [
+          {
+            "optionNumber": 1,
+            "name": "Riz basmati + Sauce tomate + Œufs",
+            "foods": [
+              { "name": "Riz basmati", "quantity": 120, "unit": "gr" },
+              { "name": "Sauce tomate", "quantity": 120, "unit": "gr" },
+              { "name": "Œufs", "quantity": 2, "unit": "1" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 2,
+            "name": "Pâtes + Thon + Pomme + Tomates Cherry",
+            "foods": [
+              { "name": "Pâtes", "quantity": 120, "unit": "gr" },
+              { "name": "Thon en eau", "quantity": 60, "unit": "gr" },
+              { "name": "Pomme", "quantity": 1, "unit": "1" },
+              { "name": "Tomates Cherry", "quantity": 100, "unit": "gr" },
+              { "name": "Blanc battu 0%", "quantity": 60, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" },
+              { "name": "Salade", "quantity": 40, "unit": "gr" },
+              { "name": "Carottes", "quantity": 50, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 3,
+            "name": "Gnocchis + Poulet + Légumes + Fruit",
+            "foods": [
+              { "name": "Gnocchis", "quantity": 220, "unit": "gr" },
+              { "name": "Poulet", "quantity": 140, "unit": "gr" },
+              { "name": "Légumes", "quantity": 150, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" },
+              { "name": "Fruit", "quantity": 1, "unit": "1" }
+            ]
+          },
+          {
+            "optionNumber": 4,
+            "name": "Noodles riz + Sauce tomate + Poulet (si entraînement <3h)",
+            "foods": [
+              { "name": "Noodles riz", "quantity": 130, "unit": "gr" },
+              { "name": "Sauce tomate", "quantity": 100, "unit": "gr" },
+              { "name": "Poulet", "quantity": 120, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" },
+              { "name": "Fruit", "quantity": 1, "unit": "1" }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "encas après-midi",
+        "options": [
+          {
+            "optionNumber": 1,
+            "name": "Yaourt + Whey + Corn Flakes + Banane",
+            "foods": [
+              { "name": "Yaourt nature", "quantity": 150, "unit": "gr" },
+              { "name": "Whey protéine", "quantity": 20, "unit": "gr" },
+              { "name": "Corn Flakes", "quantity": 20, "unit": "gr" },
+              { "name": "Banane", "quantity": 1, "unit": "1" }
+            ]
+          },
+          {
+            "optionNumber": 2,
+            "name": "Crème riz + Whey + Corn Flakes",
+            "foods": [
+              { "name": "Crème riz", "quantity": 40, "unit": "gr" },
+              { "name": "Whey protéine", "quantity": 20, "unit": "gr" },
+              { "name": "Corn Flakes", "quantity": 20, "unit": "gr" }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "souper",
+        "options": [
+          {
+            "optionNumber": 1,
+            "name": "Pain Hamburger + Burger + Mozzarella + Patate",
+            "foods": [
+              { "name": "Pain Hamburger", "quantity": 90, "unit": "gr" },
+              { "name": "Burger viande 5% gras", "quantity": 120, "unit": "gr" },
+              { "name": "Mozzarella", "quantity": 20, "unit": "gr" },
+              { "name": "Patate", "quantity": 300, "unit": "gr" },
+              { "name": "Légumes", "quantity": 150, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 2,
+            "name": "Patate douce + Saumon + Légumes",
+            "foods": [
+              { "name": "Patate douce", "quantity": 400, "unit": "gr" },
+              { "name": "Saumon", "quantity": 160, "unit": "gr" },
+              { "name": "Légumes", "quantity": 150, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 3,
+            "name": "Galettes Fajitas + Jambon + Mozzarella + Miel + Fruit",
+            "foods": [
+              { "name": "Galettes Fajitas", "quantity": 120, "unit": "gr" },
+              { "name": "Légumes", "quantity": 150, "unit": "gr" },
+              { "name": "Jambon cuit", "quantity": 40, "unit": "gr" },
+              { "name": "Mozzarella", "quantity": 50, "unit": "gr" },
+              { "name": "Miel", "quantity": 20, "unit": "gr" },
+              { "name": "Fruit", "quantity": 1, "unit": "1" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 4,
+            "name": "Heura + Tomates + Riz + Edamame + Avocat",
+            "foods": [
+              { "name": "Heura", "quantity": 120, "unit": "gr" },
+              { "name": "Tomates cherry", "quantity": 100, "unit": "gr" },
+              { "name": "Concombre", "quantity": 60, "unit": "gr" },
+              { "name": "Salade", "quantity": 30, "unit": "gr" },
+              { "name": "Riz blanc", "quantity": 100, "unit": "gr" },
+              { "name": "Edamame", "quantity": 50, "unit": "gr" },
+              { "name": "Avocat", "quantity": 60, "unit": "gr" },
+              { "name": "Fruit", "quantity": 150, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 5,
+            "name": "Sleep Low – Œufs + Mozzarella + Guacamole",
+            "foods": [
+              { "name": "Œufs", "quantity": 2, "unit": "1" },
+              { "name": "Mozzarella", "quantity": 40, "unit": "gr" },
+              { "name": "Légumes crus", "quantity": 100, "unit": "gr" },
+              { "name": "Guacamole", "quantity": 40, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 6,
+            "name": "Sleep Low – Veau + Légumes + Mozzarella",
+            "foods": [
+              { "name": "Viande veau", "quantity": 160, "unit": "gr" },
+              { "name": "Légumes crus", "quantity": 100, "unit": "gr" },
+              { "name": "Mozzarella", "quantity": 20, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" }
+            ]
+          },
+          {
+            "optionNumber": 7,
+            "name": "Sleep Low – Saumon + Légumes",
+            "foods": [
+              { "name": "Légumes crus", "quantity": 100, "unit": "gr" },
+              { "name": "Saumon", "quantity": 200, "unit": "gr" },
+              { "name": "Huile olive", "quantity": 10, "unit": "gr" }
+            ]
+          }
+        ]
+      }
+    ],
+    "supplements": [
+      {
+        "name": "Magnésium Malate",
+        "dosage": "200mg",
+        "timing": "avant dodo avec souper",
+        "comment": "Favorise la récupération et le sommeil"
+      },
+      {
+        "name": "Vitamine D",
+        "dosage": "2000 IU",
+        "timing": "matin petit-déjeuner",
+        "comment": "À prendre avec repas contenant des graisses"
+      },
+      {
+        "name": "Oméga 3",
+        "dosage": "1000mg",
+        "timing": "1x jour",
+        "comment": "Anti-inflammatoire, santé cardiovasculaire"
+      }
+    ],
+    "trainingNotes": [
+      "2 tablettes sel 50 min avant la séance (si transpiration abondante)",
+      "25-40g gel toutes les 40 minutes",
+      "Si sortie longue + séries : gels toutes les 30 minutes",
+      "Si > 1h avant prochain repas après entraînement : ajouter shake récupération"
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+node_modules/
+.next/
+dist/
+build/
+tsconfig.tsbuildinfo
+.env.local
+.env*.local

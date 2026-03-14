@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Magnésium Malate",
+    "dosage": "200mg",
+    "timing": "avant dodo avec souper",
+    "comment": "Favorise la récupération et le sommeil"
+  },
+  {
+    "name": "Vitamine D",
+    "dosage": "2000 IU",
+    "timing": "matin petit-déjeuner",
+    "comment": "À prendre avec repas contenant des graisses"
+  },
+  {
+    "name": "Oméga 3",
+    "dosage": "1000mg",
+    "timing": "1x jour",
+    "comment": "Anti-inflammatoire, santé cardiovasculaire"
+  }
+]
